@@ -1,0 +1,12 @@
+
+#homeTitle{
+    font-size: 2.5rem;
+    font-family: "Pacifico", cursive;
+  }
+
+  
+@media only screen and (min-width: 768px) {
+    #homeTitle{
+      font-size: 4rem;
+    }
+}

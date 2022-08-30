@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bloomey's Junction</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="home" class="smooth">
+    <!-- Navigation -->
+    <header
+      
+      class="d-flex sticky-top  justify-content-center align-items-center flex-column mt-4 mb-2"
+    >
+      <h1 id="homeTitle">Bloomy's Junction</h1>
+   <!--  
+    <div
+      class="sticky-top d-flex justify-content-center align-items-center flex-column m-5"
+    > -->
+      <nav
+        class="navbar mt-2  navbar-light navbar-expand-lg bg-white"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div
+              class="navbar-nav d-flex justify-content-center align-items-center"
+            >
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              
+                <a class="nav-link" href="#shop">SHOP</a>
+                
+
+              <a class="nav-link" href="#services">SERVICES</a>
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- </div> -->
+  </header>
+    <main>
+      <section>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/assets/flower/carousel/flower.png"
+                class="d-block w-100"
+                alt="flower"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/flower/carousel/rose.png"
+                class="d-block w-100"
+                alt="rose"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/flower/carousel/wedding.png"
+                class="d-block w-100"
+                alt="wedding"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden " id="shop">Next</span>
+          </button>
+        </div>
+      </section>
+     
+      <section
+        id="flowerCard"
+        class="border-bottom border-warning mt-5 d-flex flex-row flex-wrap justify-content-center"
+      >
+        <div id="cardRow" class="card-group"></div>
+        
+      </section>
+      <section
+        id="services"
+        class="d-flex justify-content-center align-items-center flex-column"
+      ><br><br><br><br>
+        <h1 class="mt-5">Services</h1>
+        <p class="m-3">
+          At Bloomey's Junction, we go beyond providing you with the best
+          fresh-cut flowers. We aim to create great experiences and lasting
+          memories through our services.
+        </p>
+        <div
+          class="d-flex justify-content-center align-items-center flex-wrap"
+          id="serviceImage1"
+        ></div>
+        <p class="m-3">
+          Our resident florists are dedicated to providing you with creative,
+          elegant, and stunning floral creations that will surely make you proud
+          as a giver or host and captivate your recipient or guests to no end.
+          <br />
+          <br />
+
+          From bouquets to stand-alone wreaths, from flower delivery to sprucing
+          up event venues, The Flower Farm has the experience and expertise to
+          make it happen.
+        </p>
+        <div
+          class="d-flex justify-content-center align-items-center flex-wrap"
+          id="serviceImage2"
+        ></div>
+        <p class="m-3">
+          No job is too small or big for us. Our shop supervisors are more than
+          willing to work with you to create beautiful floral arrangements for
+          any occasion and budget.
+        </p>
+        <ul
+          id="servicesList"
+          class="d-flex justify-content-center align-items-center list-unstyled flex-column"
+        ></ul>
+        <p class="m-3 fw">
+          Please <u>contact our stores </u> directly for budget inquiries or
+          send us an email with the form below for inquiries.
+        </p>
+
+        <form class="row g-3 w-50 mb-5">
+          <div class="col-md-12">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
+          </div>
+          <div class="col-md-6">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="inputEmail4" />
+          </div>
+
+          <div class="col-md-6">
+            <label for="eventlocation" class="form-label">Event Location</label>
+            <input type="text" class="form-control" id="eventLocation" />
+          </div>
+          <div class="col-md-6">
+            <label for="eventDate" class="form-label">Event Date</label>
+            <input type="date" class="form-control" id="eventDate" />
+          </div>
+          <div class="col-md-6">
+            <label for="eventBudget" class="form-label">Event Budget</label>
+            <input type="number" class="form-control" id="eventBudget" />
+          </div>
+          <div class="col-md-6">
+            <label for="eventHeadcount" class="form-label"
+              >Event Headcount</label
+            >
+            <input type="number" class="form-control" id="eventHeadcount" />
+          </div>
+          <div class="col-md-12">
+            <label for="inquiry" class="form-label">Inquiry</label>
+            <textarea
+              name="inquiry"
+              id="inquiry"
+              cols="30"
+              rows="2"
+              class="w-100 "
+            ></textarea>
+          </div>
+
+          <div class="col-md-6 d-flex m-start">
+            <button type="submit" class="btn btn-primary">SEND INQUIRY</button>
+          </div>
+        </form>
+      </section>
+      <section id="contact" class="h-100">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 class="mb-1 mt-5 display-2">Contact Us</h1>
+          <p class="mb-4 mt-1 display-6">Bloomy's Junction</p>
+          <div class="w-25 h-25 d-flex justify-content-center align-items-center">
+          <img src="/assets/flower/pink/f3.jpeg" class='w-50 h-50'alt="roses">
+        </div>
+          
+         
+          <p>Master Building ,111 Master Road,Master City</p>
+        
+        
+          <p class="text-decoration-underline fw-bolder">Email</p>
+          <p>order@bloomysjunction.com</p>
+          
+          <p class="text-decoration-underline fw-bolder">Store Hours</p>
+          <p>Monday to Friday  9:00am - 5:00pm</p>
+          <p>Saturday  9:00am - 4:00pm</p>
+          <p class="d-flex bg-info">NO OPERATION ON SUNDAY</p>
+
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
+    <script type="module" src="script/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

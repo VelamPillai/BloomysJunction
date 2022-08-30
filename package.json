@@ -1,0 +1,27 @@
+{
+  "name": "bloomeys-junction",
+  "version": "1.0.0",
+  "description": "website for flowershop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script/index.js"
+   
+  },
+  "type": "module",
+  "keywords": [
+    "flower",
+    "Flowers",
+    "flowerShop",
+    "FlowerShop"
+  ],
+  "author": "Velam pillai",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.5"   
+   
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+    
+  }
+}
